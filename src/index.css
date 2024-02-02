@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 500px) {
+  .custom-card {
+    transform: scale(0.8);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .custom-card {
+    transform: scale(0.6);
+  }
+}
