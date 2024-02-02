@@ -27,7 +27,7 @@ function App() {
       .then((res) => res.json())
       .then((data) => {
         data.forEach((item) => {
-          item.avatar = faker.image.avatar();
+          item.avatar = faker.image.url();
         });
         setData(data);
         setTimeout(() => setLoading(false), 1000);
